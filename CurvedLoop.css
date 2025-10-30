@@ -1,0 +1,66 @@
+.curved-loop-jacket {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.curved-loop-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+
+.curved-loop-svg text {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 88px;
+  fill: #1a1a1a;
+  text-transform: uppercase;
+  letter-spacing: -0.88px;
+}
+
+.playground-curved-text {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 88px;
+  fill: #1a1a1a;
+  text-transform: none;
+  letter-spacing: -0.88px;
+}
+
+.playground-curved-subtext {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 11px;
+  fill: rgba(26, 26, 26, 0.6);
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: normal;
+}
+
+@media (max-width: 768px) {
+  .curved-loop-svg text,
+  .playground-curved-text {
+    font-size: 48px;
+    letter-spacing: -0.48px;
+  }
+  
+  .playground-curved-subtext {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 480px) {
+  .curved-loop-svg text,
+  .playground-curved-text {
+    font-size: 32px;
+    letter-spacing: -0.32px;
+  }
+  
+  .playground-curved-subtext {
+    font-size: 8px;
+  }
+}
